@@ -1,0 +1,15 @@
+n = float(input("n ="))
+
+def func(Number):
+	y = 0
+	if Number > 0:
+		y = Number - 0.5
+	elif Number == 0:
+		y = Number
+	else:
+		y = abs(Number)
+	return y
+
+Result = func(n)
+
+print(f"Result = {Result}")
