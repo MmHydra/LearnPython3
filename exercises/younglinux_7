@@ -1,0 +1,13 @@
+year = input("pls enter the year: ")
+year = int(year)
+
+YearDivZero = year % 400
+YearDivFour = year % 4
+
+if YearDivZero != 0 and YearDivFour != 0:
+	amount = 365
+else:
+	amount = 366
+
+print(amount)
+
